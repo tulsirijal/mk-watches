@@ -1,0 +1,287 @@
+/* Navbar */
+.container-fluid {
+    background: #fff;
+}
+.logo-img {
+
+    width:10%;
+    
+}
+.nav-btn {
+    margin-left: 400px;
+    margin-right: 10px;
+    border-radius: 20%;
+    text-decoration: none;
+}
+.btn-outline-primary a {
+    text-decoration: none;
+    border-radius: 20%;
+}
+.active {
+    margin-left: 300px;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+
+
+
+/* Brand section */
+#brand {
+    text-align: center;
+    margin-top: 50px ;
+    padding:  15% ;
+    background-color:#FFE7CC ;
+    line-height: 2.5;
+    background: url(https://wallpaperaccess.com/full/5843873.jpg);
+    height: 100vh;
+    background: cover;
+
+}
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    line-height: 1;
+    color: #fff;
+    margin-top: 30px;
+    position: relative;
+    bottom: 50px;
+}
+.watch-description{
+    color: #fff;
+    position: relative;
+    bottom: 50px;
+    margin-top: 50px;
+}
+.description {
+    position: relative;
+    bottom: 50px;
+}
+.discover {
+    text-decoration: none;
+    
+}
+.visit-our-store {
+    padding: 10px 20px;
+    background-color: #FFE7CC;
+    margin-top: 40px;
+    display: inline-block;
+    width: 70%;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px;
+
+}
+.visit-our-store:hover {
+    background-color: #BCCEF8;
+    border: none;
+}
+
+/* product section */
+#browse {
+    text-align: center;
+    
+}
+h2,
+p{
+    text-align: center;
+
+}
+h2 {
+    font-family: 'Poppins ', sans-serif ;
+}
+h3 {
+    font-family: "Montserrat";
+}
+p {
+    font-family: 'Inria Serif', serif;
+}
+.img-fluid {
+    width: 60%;
+}
+
+/* login form */
+
+#login-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   background-color:#FAF7F0 ;
+   padding-bottom: 40px;
+   background: url(https://t4.ftcdn.net/jpg/01/68/56/45/360_F_168564501_U3YhhIVRp5EpKHTjT41gtETh2sju12QL.jpg);
+   height: 100vh;
+}
+form {
+    width: 400px;
+}
+form div {
+   margin-bottom: 1rem;
+}
+form label {
+    display: block;
+    text-transform: uppercase;
+    text-align: start;
+    letter-spacing: 1px;
+   
+}
+form input {
+    padding: .75rem;
+    width: 90%;
+    
+}
+.third-heading {
+    padding-top: 50px;
+}
+.register-method {
+    margin-top: 9px;
+}
+.register-method button {
+    border-radius: 5%;
+    padding: 4px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-family: 'Inria Serif',serif;
+}
+.register-method button:hover {
+    background-color:#BCCEF8 ;
+}
+/* reasons to choose mk watch */
+#features {
+    text-align: center;
+    margin-top: 60px;
+}
+#features h2 {
+    margin-bottom: 80px;
+}
+/* contact question  */
+.question {
+    padding: 20px;
+}
+/* contact form */
+#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #fff;
+}
+.contact {
+    margin-bottom: 30px;
+}
+textarea {
+    resize: none;
+    border-radius: 10px;
+}
+.question p {
+    margin-top: 30px;
+}
+.question a {
+    text-decoration: none;
+}
+.question  {
+    
+    background-color: #BCCEF8;
+    border: #fff;
+    border-radius: 10%;
+    padding: 10px;
+}
+.email {
+    margin-left: 27px;
+}
+.phone-number {
+    margin-right: 55px;
+}
+/* footer */
+#footer {
+    text-align: center;
+
+    
+}
+.footer {
+    margin: 50px 20px ;
+    
+}
+.fa-brands {
+    padding: 10px;
+}
+
+
+/* practice  */
+.practice-img {
+    width: 50%;
+}
+
+
+    
+
+@media (max-width:1300px){
+    
+    .active {
+        margin-left: 200px;
+    }
+    .nav-btn {
+        margin-left: 250px;
+    }
+}
+@media (max-width:991px)  {
+    .nav-btn{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .active {
+        margin-left: 0;
+    }
+   h1 {
+    margin-top: 200px;
+   }
+  
+}
+
+@media (max-width:768px){
+    h1 {
+        margin-top: 100px;
+
+    }
+    .watch-description {
+        margin-top: 50px;
+        text-align: left;
+    }
+    .img-fluid {
+        width: 40%;
+    }
+    .visit-our-store {
+       
+     margin-top: 0px;
+       width: 100%;
+        
+    }
+}
+@media (max-width:530px) {
+    .visit-our-store {
+       
+     margin-top: 0px;
+     width: 100%;
+        
+    }
+    .email,
+    .phone-number,
+    .address {
+        text-align: left;
+        margin-left: 10px;
+    }
+   
+}
+@media (max-width:375px) {
+  
+    h1 {
+        margin-top: 0px;
+    }
+}
+   
